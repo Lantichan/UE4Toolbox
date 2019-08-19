@@ -17,13 +17,13 @@ The goal of this Toolbox is to provide functions that make the workflow more con
 
 ### Convenience .fbx export
 
-Usually Meshes have to be moved to 0,0,0 before you can export them with the origin being set correctly in Unreal Engine. Especially in Scenes that contain many meshes that are positioned together as a prototype of how the scene is supposed to look like in Unreal Engine, this can be quite the chore as you would have to move every mesh to 0,0,0, export it and move it back to its original position by hand. This function will help you with that.
+Usually Objects have to be moved to (0,0,0) before you can export them with the pivot being set correctly in Unreal Engine. Especially in scenes that contain many objects, like a prototype of how the scene is supposed to look like in Unreal Engine, this can be quite the chore. You would have to move every mesh to (0,0,0), export it and move it back to its original position by hand. This function will help you with that.
 
 The "Export to UE4 (.fbx)" Button will open the same file-save dialog that you probably already know from Blender's "Export" menu.
-The difference is that by using this Button instead of the default .fbx exporter, your currently selected Object/Mesh will be moved into the origin (0,0,0). This happens as soon as you click the button, so you can then just save it as you are used to. 
-Once you click the Export button in the file-save Dialog and saving is completed, the mesh will be automatically returned to its original position and you will be returned to the Scene view and you will have an .fbx file ready to import into Unreal Engine with the correct pivot.
+The difference is that by using this button instead of the default .fbx exporter, your currently selected object will be moved into the origin (0,0,0). This happens as soon as you click the button, so you can then just save it as you are used to. 
+Once you click the export button in the file-save dialog and saving is completed the mesh will automatically be returned to its original position. You will be returned to the scene-view with an .fbx file on your harddrive, ready to be imported into Unreal Engine with the correct pivot, while your prototype in Blender also remains intact.
 
-It's not a big or groundbreaking feature, but I believe it will save a lot of time in the long run if you are prototyping scenes in Blender and need to get them into the Unreal Engine.
+It's not a big or groundbreaking feature, but I believe it will save a lot of time in the long run if you are prototyping scenes in Blender and need to get them into Unreal Engine.
 
 ## Planned Features
 
